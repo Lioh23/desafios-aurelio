@@ -28,6 +28,7 @@ body {
 
     & input[type=number] {
         padding: .75rem;
+        width: 80%;
         border: none;
         border-bottom: 2px solid #ccc;
         outline: none;
