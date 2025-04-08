@@ -19,9 +19,7 @@ square.style = `background-color:rgb(0, 0, 0);`
 
 
 function mudarCor() {
-    for (let cor in rgb) {
         document.getElementById('square').style = `background-color:rgb(${rgb.red}, ${rgb.green}, ${rgb.blue});`
-    }
 }
 
 //define a cor padrão do quadrado
